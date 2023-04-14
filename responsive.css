@@ -1,0 +1,27 @@
+@media screen and (max-width: 1133px) {
+    #navshortcut ul li{
+        font-size: 8px;
+        padding: 3px 3px;
+    }
+}
+
+@media screen and (max-width: 946px) {
+    #upper{
+        flex-direction: column;
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 447px){
+    #lower {
+        height: 10vh;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 360px){
+    #navshortcut ul {
+        flex-wrap: wrap;
+    }
+}
+

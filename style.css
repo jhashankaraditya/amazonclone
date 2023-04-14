@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #131A22;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    height: 36vh;
+    color: white;
+}
+
+#upper{
+    background-color: #0F1111;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lato', sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    height: 14vh;
+}
+
+#address:hover{
+    cursor: pointer;
+    color: rgb(150, 148, 148);
+}
+
+#orderreturn:hover{
+    cursor: pointer;
+    color: rgb(150, 148, 148);
+}
+
+#navsignin:hover{
+    cursor: pointer;
+    color: rgb(150, 148, 148);
+}
+
+#search {
+    font-family: 'Lato', sans-serif;
+    width: 47vw;
+    height: 2vw;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+#searchbtn {
+    font-family: 'Lato', sans-serif;
+    padding: 8px;
+    background-color: navajowhite;
+    border-radius: 5px;
+    margin: 4px;
+}
+
+#searchbtn:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+#lower {
+    background-color: #232f3e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 6vh;
+    align-items: center;
+}
+
+#upper img{
+    width: 7vw;
+    height: 4vw;
+}
+
+#footerlogo img {
+    width: 4vw;
+    margin: 2vw;
+}
+
+#navshortcut ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#navshortcut ul li {
+    padding: 6px 6px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+#navshortcut ul li:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#navoffer img{
+    width: 20vw;
+}
+
+#navoffer img:hover{
+    cursor: pointer;
+}
+
+.container{
+    min-height: calc(100vh-36vh-6vh-14vh);
+    background-color: rgb(208, 201, 201);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#slider img{
+    width: 80vw;
+}
+
+#slider{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.cards {
+    background-color: white;
+    padding: 1vw;
+    margin: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-1 img{
+    width: 7vw;
+}
+
+.item-1{
+    margin: 2vw 4vw;
+    text-align: center;
+}
+
+.card-1{
+    display: flex;
+    flex-direction: column;
+    margin: 2vw 0vw;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
